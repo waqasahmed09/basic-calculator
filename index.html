@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Basic Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Calculator</h1>
+    <div class="input-section">
+      <label for="number1">Enter First Number:</label>
+      <input id="number1" type="number" placeholder="Enter a number" />
+    </div>
+    <div class="input-section">
+      <label for="number2">Enter Second Number:</label>
+      <input id="number2" type="number" placeholder="Enter a number" />
+    </div>
+    <div class="button-section">
+      <button onclick="add()" class="btn">Add</button>
+      <button onclick="subtract()" class="btn">Subtract</button>
+      <button onclick="multiply()" class="btn">Multiply</button>
+      <button onclick="divide()" class="btn">Divide</button>
+    </div>
+    <div class="result-section">
+      <textarea name="result" id="textArea" readonly cols="30" rows="10"></textarea>
+    </div>
+    <div class="github-link">
+      <p>Follow me on GitHub:</p>
+      <a href="https://github.com/waqasahmed09" target="_blank" rel="noopener">
+        <i class='bx bxl-github' aria-hidden="true"></i>
+        <span>waqasahmed09</span>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
